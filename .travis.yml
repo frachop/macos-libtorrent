@@ -10,5 +10,9 @@ before_install:
   - brew install boost@1.60
   - brew unlink boost@1.60
 
-
+script:
+  - cd "$TRAVIS_BUILD_DIR/platform/macos" && xcodebuild
   
+
+
+
