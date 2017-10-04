@@ -1,0 +1,7 @@
+.qmake*
+.tmp
+.DS_Store
+*.a
+*.o
+*.zip
+*.exe
