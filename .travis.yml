@@ -6,3 +6,9 @@ osx_image: xcode9
 
 before_install:
   - brew update
+  - brew install openssl
+  - brew install boost@1.60
+  - brew unlink boost@1.60
+
+
+  
