@@ -11,6 +11,7 @@ before_install:
   - brew unlink boost@1.60
 
 script:
+  - python --version
   - cd "$TRAVIS_BUILD_DIR/platform/macos" && xcodebuild
   
 
