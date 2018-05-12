@@ -7,6 +7,7 @@ script:
   - python --version
   - uname -a
   - cd "$TRAVIS_BUILD_DIR" && pwd
+  - "$TRAVIS_BUILD_DIR/build.sh"
   
   
 
